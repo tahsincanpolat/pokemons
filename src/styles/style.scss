@@ -1,0 +1,56 @@
+$black : #474444;
+$white : #f2f2f2;
+
+body{
+    font-family:'Trebuchet MS';
+}
+
+.pokemons{
+    margin-top: 15px;
+    .filter{
+        display: flex;
+        justify-content: space-between;
+        .search-input{
+            width: 300px;
+            margin: 15px;
+    
+        }
+        .search-select{
+            width: 300px;
+            height: 40px;
+            margin: 15px;
+        }
+    }
+   
+    .pokemon{
+        background-color: $white;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+        box-shadow: 10px 10px 5px -3px rgba(0,0,0,0.35);
+        .poke-image{
+            display: flex;
+            justify-content: center;
+            img{
+                width: 75%;
+            }
+        }
+        .poke-name{
+            font-size: 20px;
+            font-weight: 500;
+            margin: 20px;
+        }
+        .poke-types{
+            display: flex;
+            justify-content: space-evenly;
+            .type-box{
+                width: 100px;
+                text-align: center;
+                padding: 5px;
+                border-radius: 10px;
+                color: #f2f2f2;
+            }
+        }
+    }
+   
+}
